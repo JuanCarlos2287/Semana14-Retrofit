@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Semana14-completa</string>
+    <string name="bt_posts">Mostrar posts</string>
+    <string name="bt_comments">Mostrar comentarios</string>
+    <string name="bt_albums">Mostrar albumes</string>
+    <string name="bt_users">Mostrar usuarios</string>
+    <string name="bt_salir">Salir</string>
+</resources>

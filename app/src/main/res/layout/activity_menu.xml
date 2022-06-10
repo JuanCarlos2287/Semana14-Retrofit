@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C372FF78"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-232dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btPost"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:text="@string/bt_posts" />
+
+            <Button
+                android:id="@+id/btComent"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:text="@string/bt_comments" />
+
+            <Button
+                android:id="@+id/btAlbum"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:backgroundTint="@android:color/holo_purple"
+                android:text="@string/bt_albums" />
+
+            <Button
+                android:id="@+id/btUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:text="@string/bt_users" />
+
+            <Button
+                android:id="@+id/btSalir"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:text="@string/bt_salir" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
